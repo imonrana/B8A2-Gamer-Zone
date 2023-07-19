@@ -1,0 +1,554 @@
+/* Worksans Font-family start */
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* worksans font-family end */
+
+
+/* common Shared Css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    max-width: 1920px;
+    padding: 0px 240px;
+    margin: 0 auto;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.title span, .span{
+    color: transparent;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.primary_btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 30px;
+    border-radius: 24px;
+    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: 0;
+}
+
+.primary_btn a{
+    color: #fff;
+}
+
+.caption{
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+/* common shared css end */
+
+
+/* nav bar css start */
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav .container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand_logo{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.brand_logo h4{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+nav .menu ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+
+nav .menu li a, .follow_btn a{
+    color: #3C354F;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.follow_btn{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 15px;
+    border: 0;
+}
+
+.follow_btn a .fa-youtube{
+    color:#F61C0D ;
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+.follow_btn a .fa-tiktok{
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+/* nav bar css end */
+
+/* banner css start */
+
+/* .banner{
+    height: 5927px;
+}
+
+.banner_info img{
+    width: 100%;
+} */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    background: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.banner .container{
+    display: flex;
+    gap: 68px;
+    justify-content: space-between;
+}
+
+
+.banner img{
+    width: 100%;
+}
+.banner_info {
+    padding: 80px 0px;
+}
+.banner_info h1{
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner_info h3{
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.banner ul{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.banner ul li{
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.banner ul li .icon{
+    color: #FF42A5;
+}
+
+.banner .banner_btn{
+    margin-left: 5px;
+    background-color: #4EC5F7;
+}
+
+/* banner css end */
+
+/* gamer css start */
+.gamer{
+    display: flex;
+    justify-content: space-between;
+    gap: 52px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer .gamer_img img{
+    width:500px;
+    height: 400px;
+}
+
+.gamer .gamer_info{
+    text-align: right;
+    padding-top: 90px;
+}
+.gamer .gamer_info .title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+
+}
+
+.gamer .gamer_info .caption{
+    margin-bottom: 20px;
+    font-size: 0.6rem;
+}
+
+.gamer .primary_btn{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.gamer .gamer_info .purpose_title{
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #534C64;
+}
+.gamer .gamer_info .purpose{
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+
+/* gamer css end */
+
+/* online games css start */
+.online_games{
+    margin-top: 120px;
+    margin-bottom:120px ;
+}
+
+.online_games .title {
+    color: #0B0223;
+    text-align: center;
+    
+}
+
+
+
+.online_games .caption{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.online_games .watch_now_img{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+}
+
+.online_games .watch_now_img .img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    
+}
+
+.online_games .watch_now_img img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    
+}
+.online_games .watch_now_img .img .overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border:3px solid #FF42A5 ;
+    text-align: center;
+   background-color: rgba(0, 0, 0, 0.80);
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+
+}
+
+
+
+.online_games .watch_now_img .overlay a{
+    font-size: 1rem;
+    font-weight: 600;
+    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online_games .watch_now_img .overlay .fa-circle-play{
+    color:white;
+    margin-bottom: 5px;
+
+}
+
+.online_games .watch_now_img .img:hover  .overlay{
+   visibility: visible;
+    opacity: 1;
+}
+
+.online_games .watch_now_img .caption{
+    text-align: start;
+    font-size: 0.75rem;
+}
+/* online games css end */
+
+/* play instant css start */
+
+.play_instant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.play_instant_info{
+    text-align: right;
+}
+
+.play_instant_info .title{
+    margin-bottom: 20px;
+}
+.play_instant .play_instant_img{
+    position: relative;
+}
+.play_instant .play_instant_img img{
+height: 400px;
+width: 400px;
+
+}
+
+.play_instant .position_img img {
+    position: absolute;
+    top: 57%;
+    left: -22%;
+    width: 50%;
+    height: 50%;
+}
+
+
+/* play instant css end */
+
+/* play game anywhere css start */
+
+.play_game_anywhere{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 200px;
+}
+.play_game_anywhere .play_instant_info{
+    text-align: left;
+
+}
+
+.play_game_anywhere .play_instant_info .title{
+    font-size: 2rem;
+}
+
+.play_game_anywhere .play_instant_info .caption{
+    font-size: 0.7rem;
+}
+.play_game_anywhere .play_instant_img img{
+    height: 350px;
+    width: 350px;
+}
+.play_game_anywhere .position_img img {
+    position: absolute;
+    top: 55%;
+    left: 84%;
+    width: 50%;
+    height: 50%;
+}
+/* play game anywhere css end */
+
+
+
+/* careers css start */
+.careers{
+    background: url(../images/Group\ 14.png), linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+}
+.careers .careers_img {
+    width: 570px;
+}
+.careers .careers_img img{
+    width: 100%;
+    
+    }
+.careers .container{
+    padding-right: 0px;
+}
+.careers .careers_info{
+padding-top: 10px;
+}
+.careers .careers_info, .careers .careers_info .caption{
+color: #FFF;
+font-size: 0.875rem;
+}
+
+.careers .careers_info > .caption{
+    padding-top: 20px;
+    padding-bottom: 24px;
+}
+
+.careers .careers_info .careers_list_item{
+display: flex;
+justify-content: space-between; 
+
+}
+.careers ul{
+    margin-bottom: 20px;
+}
+.careers ul li{
+    margin-bottom: 10px;
+}
+.careers .careers_item{
+    text-align: right;
+}
+.careers .careers_info .careers_btn{
+    padding: 15px 15px;
+    align-items: flex-start;
+    border-radius: 30px;
+    background: #FFF;
+    border: 0;
+}
+.careers .careers_info .careers_btn a{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FF42A5;
+}
+
+
+/* careers css end */
+
+
+/* Action game css start */
+.action_game{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.action_game .action_item{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    gap:10px;
+    margin-left: 10px;
+    border: 2px solid transparent;
+    transition: .2s;
+
+}
+
+.action_game .action_item:hover{
+    border-radius: 20px;
+    background: #FFF;
+    border-color:  #FF42A5;
+}
+
+.action_game .action_item img{
+    width: 20%;
+}
+
+.action_game .action_item  .item_title{
+    font-size: 13px;
+    font-weight: 600;
+    color: #0B0223;
+}
+
+/* Action game css end */
+
+
+/* footer css start */
+
+footer{
+    margin-top: 80px;
+    height: 400px;
+    background:#0B0223;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+footer .brand_logo .title{
+    color: #FFF;
+
+}
+
+footer ul{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+footer ul li a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
+
+footer i{
+    font-size: 2rem;
+}
+
+footer  .importan_link a, .copy_right{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 15px;
+}
+
+
+/* footer css end */
