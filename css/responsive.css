@@ -262,6 +262,316 @@ footer .copy_right{
 
 /* footer responsive start */
 
+}
+
+/* small device responsive end */
+
+
+/* medium device tablet responsive start */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    
+/* common shared responsive start */
+html{
+    font-size: 14px;
+}
+.container {
+    padding: 0px 50px;
+    margin: 0px auto;
+
+}
+
+
+/* common shared responsive end */
+
+/* header responsive start */
+
+/* nav responsive start */
+nav{
+    padding: 50px 0px;
+
+}
+.brand_logo {
+
+    align-items: center;
+}
+
+
+nav .container, nav .menu ul, .gamer   {
+    height: auto;
+    flex-direction: column;
+
+}
+
+nav .menu ul{
+    gap:24px;
+    margin-top: 40px;
+}
+/* nav responsive end */
+
+
+
+/* banner responsive start */
+.banner{
+    flex-direction: column-reverse;
+    background-color: #FFF;
+    background-position: 0% 100%;
+    gap:5px;
+    background-size: 100% 420px;
+
+}
+.banner_info {
+    width: 106%;
+}
+
+.banner_info h3 {
+    font-size: 2rem;
+}
+
+.banner_info h1 {
+    font-size: 4rem;
+}
+.primary_btn {
+    font-size: 18px;
+    padding: 14px 19px;
+    border-radius: 18px;
+    
+}
+
+.banner .banner_btn {
+    font-size: 18px;
+    padding: 14px 19px; 
+    border-radius: 18px;
+    display: inline-block;
+
+}
+
+/* banner responsive end */
+
+/* header responsive end */
+
+/* gamer responsive start */
+
+.gamer{
+    background: #fff;
+    gap: 0px;
+
+}
+
+.gamer .gamer_img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.gamer .gamer_info{
+    padding-top: 0px;
+    text-align: center;
+}
+
+.gamer .gamer_info .title {
+    font-size: 3rem;
+}
+
+.gamer .gamer_info .caption{
+    font-size: 0.75rem;
+}
+
+
+.gamer .primary_btn{
+    font-size: 14px;
+}
+
+
+.gamer .gamer_info .purpose_title, .gamer .gamer_info .purpose{
+    text-align: center;
+
+}
+
+
+/* gamer responsive end */
+
+
+/* online games responsive start */
+
+.online_games{
+    margin-top: 50px;
+}
+
+.online_games .title {
+    font-size: 2.5rem;
+    margin-top: 100px;
+}
+
+.watch_now_img{
+    flex-direction: column;
+    align-items: center;
+}
+.online_games .caption {
+    font-size: 1.3rem;
+}
+
+.online_games .watch_now_img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+    justify-items: center;
+}
+.online_games .watch_now_img .caption{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* online games responsive end */
+
+/* play instant responsive start */
+
+.play_instant{
+    flex-direction: column;
+    align-items: center;
+
+}
+.play_instant_info{
+    text-align: center;
+}
+
+.play_instant_info .title {
+    margin-top: 110px;
+}
+
+.play_instant .play_instant_img img {
+    margin-top: 50px;
+}
+
+.play_instant .play_instant_img img {
+    height: 400px;
+    width: 400px;
+}
+
+.play_instant .position_img img {
+    top: 52%;
+    width: 180px;
+    height: 180px;
+    left: -15%;
+}
+
+/* paly instant responsive end */
+
+/* play game anywhere responsive start*/
+
+.play_game_anywhere {
+    gap: 0px;
+}
+.play_game_anywhere .position_img img {
+    left: 72%;
+
+}
+
+.play_game_anywhere .play_instant_info .title {
+    font-size: 2.5rem;
+}
+
+
+.play_game_anywhere .play_instant_info{
+    text-align: center;
+}
+
+.play_game_anywhere .play_instant_info .caption {
+    font-size: 1.1rem;
+}
+
+/* play game anywhere responsive end */
+
+
+
+/* careers responsive start */
+
+.careers {
+    margin-top: 100px;
+
+}
+
+.careers .careers_info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* careers responsive end */
+
+/* action game responsive start */
+
+.action_game{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.action_game .action_item {
+    width:100%;
+}
+
+.action_game .action_item .item_title {
+    font-size: 0.7rem;
+}
+
+
+/* action game responsive end */
+
+/* footer responsive start */
+footer{
+    height: auto;
+    margin-top: 0px;
+}
+footer .brand_logo{
+        margin-top: 100px;
+}
+
+footer ul {
+    margin-top: 40px;
+
+}
+
+footer .shortcut_link{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+}
+
+footer i {
+    font-size: 1.9rem;
+}
+
+footer .importan_link {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+}
+
+footer  .importan_link a, .copy_right {
+    font-size: 1rem;
+
+}
+
+
+footer .copy_right{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* footer responsive start */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -275,4 +585,5 @@ footer .copy_right{
 
 }
 
-/* small device responsive end */
+
+/* medium device tablet responsive end */
