@@ -1,5 +1,5 @@
 /* Worksans Font-family start */
-  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* worksans font-family end */
 
@@ -188,6 +188,15 @@ nav .menu li a, .follow_btn a{
 .banner .banner_btn{
     margin-left: 5px;
     background-color: #4EC5F7;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 30px;
+    border-radius: 24px;
+    border: 0;
+}
+
+.banner .banner_btn a{
+    color: #FFF;
 }
 
 /* banner css end */
@@ -552,3 +561,8 @@ footer  .importan_link a, .copy_right{
 
 
 /* footer css end */
+
+
+.hidden{
+    display: none;
+}

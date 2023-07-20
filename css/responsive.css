@@ -1,0 +1,278 @@
+/* Small device responsive start */
+@media screen and (max-width: 576px) {
+
+    /* common shared responsive start */
+
+    html{
+    font-size: 12px;
+}
+.container {
+    padding: 0px 50px;
+    margin: 0px auto;
+
+}
+
+/* common shared responsive end */
+
+/* header responsive start */
+
+/* nav responsive start */
+nav{
+    padding: 50px 0px;
+
+}
+.brand_logo {
+
+    align-items: center;
+}
+
+
+nav .container, nav .menu ul, .gamer   {
+    height: auto;
+    flex-direction: column;
+
+}
+
+nav .menu ul{
+    gap:24px;
+    margin-top: 40px;
+}
+/* nav responsive end */
+
+/* banner responsive start */
+.banner{
+    flex-direction: column-reverse;
+    background-color: #FFF;
+    background-position: 0% 100%;
+    gap:5px;
+    background-size: 100% 420px;
+
+}
+.banner_info {
+    width: 106%;
+}
+
+.banner_info h3 {
+    font-size: 2rem;
+}
+
+.banner_info h1 {
+    font-size: 4rem;
+}
+.primary_btn {
+    font-size: 18px;
+    padding: 14px 19px;
+    border-radius: 18px;
+    
+}
+
+.banner .banner_btn {
+    font-size: 18px;
+    padding: 14px 19px; 
+    border-radius: 18px;
+    display: inline-block;
+
+}
+
+/* banner responsive end */
+
+/* header responsive end */
+
+/* gamer responsive start */
+
+.gamer{
+    background: #fff;
+
+}
+
+.gamer .gamer_img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.gamer .gamer_info{
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+
+.gamer .primary_btn{
+    font-size: 14px;
+}
+
+
+.gamer .gamer_info .purpose_title, .gamer .gamer_info .purpose{
+    text-align: center;
+
+}
+
+
+/* gamer responsive end */
+
+
+
+/* online games responsive start */
+
+.online_games{
+    margin-top: 50px;
+}
+
+.online_games .title {
+    font-size: 2rem;
+    margin-top: 100px;
+}
+
+.watch_now_img{
+    flex-direction: column;
+    align-items: center;
+}
+
+.online_games .watch_now_img {
+    gap:36px;
+}
+.online_games .watch_now_img .caption{
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* online games responsive end */
+
+
+/* play instant responsive start */
+
+.play_instant{
+    flex-direction: column;
+    align-items: center;
+
+}
+.play_instant_info{
+    text-align: center;
+}
+
+.play_instant_info .title {
+    margin-top: 110px;
+}
+
+.play_instant .play_instant_img img {
+    margin-top: 50px;
+}
+
+.play_instant .play_instant_img img {
+    height: 200px;
+    width: 200px;
+}
+
+.play_instant .position_img img{
+    top:45%;
+    width: 90px;
+    height: 100px;
+}
+
+/* paly instant responsive end */
+
+
+/* play game anywhere responsive start*/
+
+.play_game_anywhere {
+    gap: 0px;
+}
+.play_game_anywhere .position_img img {
+    left: 72%;
+
+}
+
+.play_game_anywhere .play_instant_info{
+    text-align: center;
+}
+
+
+/* play game anywhere responsive end */
+
+/* careers responsive start */
+
+.careers{
+    margin-top: 100px;
+    flex-direction: column-reverse;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+
+.careers .careers_info > .caption {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-size: 0.6rem;
+}
+
+.careers .careers_item {
+    text-align: left;
+}
+
+.careers .careers_img {
+    padding-top: 50px;
+    width: 100%;
+}
+
+
+/* careers responsive end */
+
+/* action game responsive start */
+
+.action_game{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.action_game .action_item {
+    width:100%;
+}
+
+.action_game .action_item .item_title {
+    font-size: 0.7rem;
+}
+
+
+/* action game responsive end */
+
+/* footer responsive start */
+footer{
+    height: auto;
+    margin-top: 0px;
+}
+footer .brand_logo{
+        margin-top: 100px;
+}
+footer ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+}
+
+footer .importan_link{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer .copy_right{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 142px;
+}
+
+/* footer responsive start */
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* small device responsive end */
