@@ -559,31 +559,17 @@ footer .copy_right{
     padding-bottom: 50px;
 }
 /* footer responsive start */
+}
+/* Laptop view responsive start */
 
+@media screen and (min-width:993px) and (max-width:1439px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .container {
+        padding: 0px 100px;
+    }
 }
 
 
-/* medium device tablet responsive end */
+/* laptop view responsive end */
+
+
